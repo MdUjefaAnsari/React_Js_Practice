@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MyStudent1 from './MyStudent1';
+// import MyStudent1 from './MyStudent1';
 
 // import MyApp from './MyApp';
 // import MyAppFun from "./MyAppFun";
@@ -10,6 +10,7 @@ import MyStudent1 from './MyStudent1';
 // import MyState from './MyState';
 // import MyEvent from './MyEvent';
 // import MyEventFun from './MyEventFun';
+import MyFunArg from './MyFunArg';
 
 
 // ReactDOM.render(<MyApp />,document.getElementById("root"));
@@ -23,4 +24,4 @@ ReactDOM.render(<MypropsCheck   id={20}>
   I am children{a}
 </MypropsCheck>,document.getElementById("root"));
 */
-ReactDOM.render(<MyStudent1  roll={101} name="ujefa" />,document.getElementById("root"));
+ReactDOM.render(<MyFunArg />,document.getElementById("root"));

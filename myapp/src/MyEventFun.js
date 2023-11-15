@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-export default function MyEventFun() {
+export default function MyEventFun(props) {
 
     // function handleClick(){
     //     console.log("I am clicked..")
@@ -10,9 +10,12 @@ export default function MyEventFun() {
     const handleClick = ()=>{
         console.log("I am clicked..")
     }
+
+
   return (
     <div>
         <button onClick={handleClick}>Click</button>
+        
     </div>
   )
 }

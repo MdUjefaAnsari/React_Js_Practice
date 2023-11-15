@@ -31,16 +31,19 @@ export default class MyStudent1 extends Component {
         this.setState({like:this.state.like-1});
         }
     }
+
   render() {
     return (
     <div>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous"></link>
         {/* <h1>ROll:{this.state.roll}</h1>
         <h1>Name:{this.state.name}</h1>
         <button onClick={this.handleClick}>Update</button> */}
 
-        <button onClick={this.handleLike}>Like</button>
+        <button onClick={this.handleLike}><i class="fas fa-thumbs-up"></i> Like </button>
         <h1>{this.state.like}</h1>
-        <button onClick={this.handleDislike}>Dislike</button>
+        <button onClick={this.handleDislike}> <i class="fas fa-thumbs-down"></i> Dislike</button>
+       
     </div>
     );
   }
